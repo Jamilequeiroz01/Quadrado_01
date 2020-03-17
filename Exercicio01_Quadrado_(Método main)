@@ -1,0 +1,15 @@
+public class QuadradoPrincipal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Quadrado quadrado1 = new Quadrado(); //Instanciando
+		quadrado1.CalcularArea(5, 10); //Calculando a base e a altura
+		
+			System.out.println("Quadrado1 depois de calcular a area "  +quadrado1.Area); //Apresentando a area
+			
+			Quadrado quadrado2 = new Quadrado(); //Instanciando
+			quadrado2.CalcularArea(20, 10); //Calculando a base e a altura
+			
+				System.out.println("Quadrado2 depois de calcular a area "  +quadrado2.Area); //Apresentando a area
+	}
+}

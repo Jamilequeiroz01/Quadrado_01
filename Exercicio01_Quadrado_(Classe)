@@ -1,0 +1,11 @@
+public class Quadrado { //Atributos da classe
+double Altura;
+double Base;
+double Area;
+
+void CalcularArea(double Base, double Altura) { //Método sem retorno
+	Area = Base*Altura; //calculo
+
+	
+}
+}
